@@ -1,3 +1,3 @@
-# config.py
+import os
 
-API_KEY = None
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
