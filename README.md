@@ -1,6 +1,6 @@
 # hello-world-mcp-server
 
-This repository provides the `hello-world-mcp-server`, an implementation of a Model Context Protocol (MCP) server using the FastMCP Python framework. This makes it easy to build, run, and extend MCP servers that communicate with clients such as **Caude**, **Cline**, **Cursor**, **VSCode**, and more.
+This repository provides the `hello-world-mcp-server`, an implementation of a Model Context Protocol (MCP) server using the FastMCP Python framework. This makes it easy to build, run, and extend MCP servers that communicate with clients such as **Claude**, **Cline**, **Cursor**, **VSCode**, and more.
 
 ## Features
 
@@ -11,7 +11,7 @@ This repository provides the `hello-world-mcp-server`, an implementation of a Mo
 
 ## Prerequisites
 
-- **Python 3.12+**
+- **Python 3.10+**
 - **uv**: [astral.sh/uv](https://docs.astral.sh/uv/) (Recommended, used for fast, dependency-isolated execution)
 - An [OpenWeather API key](https://openweathermap.org/api) (free signup)
 
@@ -33,7 +33,7 @@ uvx --help
 
 ## Quick Start: Run from Your MCP Client
 
-Paste the following JSON into your MCP-compatible client (**Cursor**, **Cline**, **Caude**, etc), after putting in your OpenWeather API key:
+Paste the following JSON into your MCP-compatible client (**Cursor**, **Cline**, **Claude**, etc), after putting in your OpenWeather API key:
 
 ```json
 {
